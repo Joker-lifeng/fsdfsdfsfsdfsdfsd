@@ -1,0 +1,32 @@
+.fr {
+	float: right;
+}
+
+.fl {
+	float: left;
+}
+
+img {
+	vertical-align: top;
+}
+
+.clearfix:after {
+	content: ".";
+	height: 0;
+	line-height: 0;
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/icomoon.eot?axvffw');
+	src: url('../fonts/icomoon.eot?axvffw#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?axvffw') format('truetype'), url('../fonts/icomoon.woff?axvffw') format('woff'), url('../fonts/icomoon.svg?axvffw#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
